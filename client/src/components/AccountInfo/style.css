@@ -1,0 +1,108 @@
+#AccountInfo {
+  width: 250px;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+#AccountInfo .content_info .content_info_item {
+  color: rgb(25, 85, 86);
+  font-weight: 700;
+}
+#logoutBtn {
+  cursor: pointer;
+}
+#logoutBtn:hover {
+  background-color: rgb(61, 61, 185);
+  color: rgb(220, 213, 213);
+}
+#AccountInfo .editBtn {
+  padding: 5px 10px;
+  background-color: darkgoldenrod;
+  border-radius: 5px;
+  border: none;
+  margin-right: 20px;
+  color: aliceblue;
+}
+#AccountInfo .editBtn:hover {
+  background-color: rgb(222, 167, 28);
+  outline: auto;
+}
+.EditAccount {
+  
+}
+
+.EditAccount {
+  margin: 2rem auto;
+  width: 40%;
+  border: 1px solid #ccc;
+  position: relative;
+  padding: 1.5rem 1.5rem 0.5rem;
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.EditAccount h5 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.EditAccount .exitBtn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: rgb(20, 19, 19);
+  text-align: center;
+  padding-left: 5px;
+  border-radius: 50%;
+}
+.EditAccount .exitBtn i {
+  font-size: 20px;
+  font-weight: 900;
+}
+.EditAccount form h6 {
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.EditAccount form .errorMessage {
+  color: rgb(217, 78, 78);
+}
+.EditAccount form .form-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.EditAccount form .form-item .avataGroup {
+  width: 95%;
+  margin: 5px auto;
+  background-color: rgb(39, 197, 171);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  margin-left: 10px;
+}
+.EditAccount form .form-item .avataGroup img {
+  width: 30%;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.EditAccount form .form-item .avataGroup .checkImg {
+  border: 3px solid rgb(236, 100, 123);
+}
+.EditAccount form .form-item label{
+  font-weight: 700;
+}
+.EditAccount form .submitBtn {
+  text-align: end;
+}
+.EditAccount form .submitBtn .saveBtn {
+  background-color: rgb(18, 78, 18);
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}

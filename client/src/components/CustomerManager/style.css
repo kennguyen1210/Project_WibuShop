@@ -1,0 +1,76 @@
+.customerManager h5 {
+  color: rgb(151, 59, 59);
+  font-size: 30px;
+  font-weight: 900;
+  margin-left: 2rem;
+}
+.customerManager .line {
+  background-color: rgb(124, 124, 158);
+  height: 3px;
+  border-radius: 3px;
+  width: 315px;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+/* customer action */
+.customerManager .createBtn {
+  padding-right: 6rem;
+  display: flex;
+  justify-content: space-around;
+}
+.customerManager .createBtn .searchBtn {
+  border: 1px solid #6b6a6a;
+  background-color: rgba(38, 123, 213, 0.946);
+  color: white;
+  border-radius: 5px;
+  margin-left: 5px;
+  padding-left: 5px;
+}
+.customerManager .createBtn .reloadBtn {
+  padding: 5px 10px;
+  background-color: rgb(93, 64, 167);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+/* customerList */
+.customerManager .customerList {
+  border: 1px solid #ccc;
+  width: 95%;
+  margin: 1rem auto;
+  text-align: center;
+}
+.customerManager .customerList i {
+  margin-right: 25px;
+  cursor: pointer;
+}
+.customerManager .createBtn {
+  text-align: end;
+  padding-right: 6rem;
+}
+.customerInfo {
+  position: fixed;
+  background-color: #d7d2d2 ;
+  border-radius: 4px;
+  padding: 25px;
+  width: 350px;
+  bottom: 40px;
+  right: 400px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: start;
+}
+.customerInfo .exitBtn {
+  position: absolute;
+  top:2px;
+  right: -18px;
+}
+.customerInfo h4 {
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: rgb(24, 168, 123);
+  text-align: center;
+}
+.customerInfo .content .item {
+  display: flex;
+}

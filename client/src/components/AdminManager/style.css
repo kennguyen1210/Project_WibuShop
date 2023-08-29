@@ -1,0 +1,105 @@
+.AdminManager h5 {
+  color: rgb(151, 59, 59);
+  font-size: 30px;
+  font-weight: 900;
+  margin-left: 2rem;
+}
+.AdminManager .line {
+  background-color: rgb(124, 124, 158);
+  height: 3px;
+  border-radius: 3px;
+  width: 270px;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+/* adminList */
+.AdminManager .adminList {
+  border: 1px solid #ccc;
+  width: 90%;
+  margin: 1rem auto;
+  text-align: center;
+}
+.AdminManager .adminList i {
+  margin-right: 25px;
+  cursor: pointer;
+}
+.AdminManager .createBtn {
+  text-align: end;
+  padding-right: 6rem;
+  display: flex;
+  justify-content: space-around;
+}
+/* create btn */
+.AdminManager .createBtn .searchBtn {
+  border: 1px solid #6b6a6a;
+  background-color: rgba(38, 123, 213, 0.946);
+  color: white;
+  border-radius: 5px;
+  margin-left: 5px;
+  padding-left: 5px;
+}
+.AdminManager .createBtn .reloadBtn {
+  padding: 5px 10px;
+  background-color: rgb(93, 64, 167);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.AdminManager .createBtn .addBtn {
+  padding: 5px 20px;
+  background-color: rgb(37, 143, 65);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.AdminManager .createBtn .addBtn .link {
+  text-decoration: none;
+  color: white;
+}
+/* AdminManager form */
+.AdminManager .adminForm {
+  margin: 2rem auto;
+  width: 40%;
+  border: 1px solid #ccc;
+  position: relative;
+  padding: 1.5rem 1.5rem 0.5rem;
+  border-radius: 5px;
+}
+.AdminManager .adminForm .exitBtn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: rgb(20, 19, 19);
+  text-align: center;
+  padding-left: 5px;
+  border-radius: 50%;
+}
+.AdminManager .adminForm .exitBtn i {
+  font-size: 20px;
+  font-weight: 900;
+}
+.AdminManager .adminForm form h6 {
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.AdminManager .adminForm form .form-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.AdminManager .adminForm form .form-item label{
+  font-weight: 700;
+}
+.AdminManager .adminForm form .submitBtn {
+  text-align: end;
+}
+.AdminManager .adminForm form .submitBtn .saveBtn {
+  background-color: rgb(18, 78, 18);
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
