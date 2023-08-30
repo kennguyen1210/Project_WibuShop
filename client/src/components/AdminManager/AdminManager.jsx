@@ -13,6 +13,7 @@ function AdminManager() {
     const call = async () => {
       const result = await axios.get("http://localhost:3000/admins");
       setData([...result.data]);
+      console.log("result", result.data);
     };
     call();
   }, [rerender]);
@@ -28,7 +29,7 @@ function AdminManager() {
 
   // reload function
   const handleReload = () => {
-    setRerender((prev) => !prev);
+    setRerender(!rerender);
   };
   // const handleDelete = async (id) => {
   //   // Xử lý khi người dùng xác nhận

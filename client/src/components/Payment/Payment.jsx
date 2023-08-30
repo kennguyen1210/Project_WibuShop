@@ -106,9 +106,10 @@ function Payment() {
 
     console.log({ payment: { ...subValue1 }, ...subValue2 });
     if (cartNumber) {
+      navidate("/buySuccess");
+    } else {
       notify();
     }
-    navidate("/buySuccess");
   };
 
   return (

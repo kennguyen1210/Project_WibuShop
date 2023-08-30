@@ -32,7 +32,7 @@ function AdminList(props) {
     // Xử lý khi người dùng xác nhận
     try {
       await axios.delete(`http://localhost:3000/admins/${id}`);
-      window.location.reload();
+      method();
       notifySuccess1();
     } catch (error) {
       console.log(error);
@@ -135,10 +135,9 @@ function AdminList(props) {
                     Active
                     <input
                       type="radio"
-                      name={e.id}
                       id="active"
                       value="active"
-                      checked={e.state ? true : false}
+                      checked={e.state}
                       onChange={() => handleEditState(e)}
                     />
                   </label>
@@ -146,10 +145,9 @@ function AdminList(props) {
                     InActive
                     <input
                       type="radio"
-                      name={e.id}
                       id="inActive"
                       value="inActive"
-                      checked={e.state ? false : true}
+                      checked={!e.state}
                       onChange={() => handleEditState(e)}
                     />
                   </label>
